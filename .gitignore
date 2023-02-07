@@ -128,3 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .idea
+/one_off_scripts/update_sequence_json_pos.py

@@ -11,9 +11,10 @@ import os
 
 
 if __name__ == '__main__':
-    im = np.zeros((3144, 3648))
+    im = np.zeros((3144, 3648, 3))
+    im[:, :, 1] = 1
     pad_sz = 30
-    shape_type = 'circle'
+    shape_type = ''#circle
 
     if shape_type == 'square':
         im_ctr_rows = np.r_[im.shape[0] / 2 - 1 - pad_sz:im.shape[0] / 2 + 1 + pad_sz].astype(int)
@@ -24,4 +25,4 @@ if __name__ == '__main__':
         r = np.sqrt((xx - (im.shape[1] / 2))**2 + (yy - (im.shape[0] / 2))**2)
         im[r < pad_sz] = 1
 
-    mimg.imsave(os.path.join('data', f'im_ctr_pix.png'), im, cmap=plt.cm.gray)
+    mimg.imsave(os.path.join('data', f'im_green.png'), im)#, cmap=plt.cm.gray)
