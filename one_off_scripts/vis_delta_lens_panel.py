@@ -1,3 +1,8 @@
+'''
+Analyze Timefall OMFC files over the panel perturbation to assess correlation w/ solved extrinsics
+Date: 3/21/23
+Contact: shnaqvi@alumni.stanford.edu
+'''
 #%%
 import os
 import matplotlib.pyplot as plt

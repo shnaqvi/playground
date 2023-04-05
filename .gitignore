@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 .idea
 /one_off_scripts/update_sequence_json_pos.py
+
+# Data
+data/

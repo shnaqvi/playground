@@ -1,3 +1,9 @@
+'''
+Bump up the brightness of images
+Date: 2/5/23
+Contact: shnaqvi@alumni.stanford.edu
+'''
+
 import os
 import matplotlib.pyplot as plt
 from PIL import Image

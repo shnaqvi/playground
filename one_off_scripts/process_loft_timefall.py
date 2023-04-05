@@ -1,3 +1,9 @@
+'''
+Shell commands for C++ code in platform-calibration for processing calibration data
+Date: 3/25/23
+Contact: shnaqvi@alumni.stanford.edu
+'''
+
 import os
 import re
 import subprocess
