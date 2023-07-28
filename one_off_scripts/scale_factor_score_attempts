@@ -1,0 +1,7 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Higher the attempts, the smaller the scaling factor 
+# (so people with least attempts get scaled up somewhat)
+plt.plot(np.exp(-1*np.arange(1,10)))
+plt.plot(1.1**(-2*(np.arange(1,10)))+.2, 'r')
